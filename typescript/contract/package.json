@@ -21,8 +21,8 @@
     "author": "John Doe",
     "license": "Apache-2.0",
     "dependencies": {
-        "fabric-contract-api": "1.4.1",
-        "fabric-shim": "1.4.1"
+        "fabric-contract-api": "~1.4.0",
+        "fabric-shim": "~1.4.0"
     },
     "devDependencies": {
         "@types/chai": "^4.1.7",
@@ -33,7 +33,7 @@
         "@types/sinon-chai": "^3.2.1",
         "chai": "^4.2.0",
         "chai-as-promised": "^7.1.1",
-	"mem": ">=4.0.0",
+        "mem": ">=4.0.0",
         "mocha": "^5.2.0",
         "nyc": "^14.0.0",
         "sinon": "^7.1.1",

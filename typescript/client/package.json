@@ -17,13 +17,12 @@
     "license": "Apache-2.0",
     "dependencies": {
         "events": "^3.0.0",
-        "fabric-network": "1.4.1",
+        "fabric-network": "~1.4.0",
+        "fabric-client": "~1.4.0",
         "typescript": "^3.3.3",
-        "ts-node": "^7.0.1",
-        "tslint": "^5.11.0"
+        "ts-node": "^7.0.1"
     },
     "devDependencies": {
-        "fabric-ca-client": "1.4.1",
-        "fabric-client": "1.4.1"
+        "tslint": "^5.11.0"
     }
 }
