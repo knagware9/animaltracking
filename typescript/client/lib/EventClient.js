@@ -65,7 +65,7 @@ var IDENTITY_LABEL = "admin";
 var currentDir = '/home/demo';
 // Wallet directory and Connection Profile sources
 var WALLET_DIRECTORY = path.join(currentDir, ".fabric-vscode/wallets/", "local_fabric_wallet");
-var CCP_FILE = path.join(currentDir, ".fabric-vscode/", "connection.json");
+var CCP_FILE = path.join(currentDir, "/", "connection.json");
 // The instantiable class for running the Event Listener
 var EventClient = /** @class */ (function (_super) {
     __extends(EventClient, _super);

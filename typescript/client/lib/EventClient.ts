@@ -29,7 +29,7 @@ const currentDir = '/home/demo';
 
 // Wallet directory and Connection Profile sources
 const WALLET_DIRECTORY = path.join(currentDir, ".fabric-vscode/wallets/", "local_fabric_wallet");
-const CCP_FILE = path.join(currentDir, ".fabric-vscode/", "connection.json");
+const CCP_FILE = path.join(currentDir, "/", "connection.json");
 
 // The instantiable class for running the Event Listener
 

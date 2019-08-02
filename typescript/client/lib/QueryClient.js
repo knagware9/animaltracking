@@ -51,7 +51,7 @@ var currentDir = '/home/demo';
 var gw = null; // gateway object set in setupContract, then disconnected in main function
 // Wallet directory and Connection Profile sources
 var WALLET_DIRECTORY = path.join(currentDir, ".fabric-vscode/wallets/", "local_fabric_wallet");
-var CCP_FILE = path.join(currentDir, ".fabric-vscode/", "connection.json");
+var CCP_FILE = path.join(currentDir, "/", "connection.json");
 var QueryClient = /** @class */ (function () {
     function QueryClient() {
     }

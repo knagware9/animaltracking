@@ -27,7 +27,7 @@ let gw:any = null ; // gateway object set in setupContract, then disconnected in
 
 // Wallet directory and Connection Profile sources
 const WALLET_DIRECTORY = path.join(currentDir, ".fabric-vscode/wallets/", "local_fabric_wallet");
-const CCP_FILE = path.join(currentDir, ".fabric-vscode/", "connection.json");
+const CCP_FILE = path.join(currentDir, "/", "connection.json");
 
 
 export class QueryClient {
